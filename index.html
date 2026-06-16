@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <head><meta name="google-site-verification" content="UGtOcDofPRFgRBKFxaIzR1NUFwTEnKCZXOl8y2ZiwCo" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -309,6 +310,34 @@ color:#555;
 }
 
 .contact-box{
+.social-links{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.social-links a{
+width:70px;
+height:70px;
+border-radius:50%;
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:32px;
+text-decoration:none;
+color:#0b5ed7;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:all .3s ease;
+}
+
+.social-links a:hover{
+transform:translateY(-8px);
+background:linear-gradient(135deg,#0b5ed7,#28a745);
+color:white;
+}
 background:linear-gradient(135deg,#0b5ed7,#28a745);
 padding:70px;
 border-radius:40px;
@@ -628,45 +657,26 @@ AV Cleaning provides premium residential and commercial cleaning services with r
 
 <h2>Contact Us Now</h2>
 
-<div class="contact-grid">
+<div class="social-links">
 
-<div class="contact-item">
-📞 <strong>Phone</strong><br>
-<a href="tel:0415414854">0415 414 854</a>
-</div>
-
-<div class="contact-item">
-💬 <strong>WhatsApp</strong><br>
-<a href="https://wa.me/61415414854" target="_blank">
-Message Us
+<a href="tel:0415414854" title="Call">
+<i class="fas fa-phone"></i>
 </a>
-</div>
 
-<div class="contact-item">
-📧 <strong>Email</strong><br>
-<a href="mailto:avcleaningservice2525@gmail.com">
-avcleaningservice2525@gmail.com
+<a href="https://wa.me/61415414854" target="_blank" title="WhatsApp">
+<i class="fab fa-whatsapp"></i>
 </a>
-</div>
 
-<div class="contact-item">
-📸 <strong>Instagram</strong><br>
-<a href="https://www.instagram.com/avcleaning_adl" target="_blank">
-@avcleaning_adl
+<a href="mailto:avcleaningservice2525@gmail.com" title="Email">
+<i class="fas fa-envelope"></i>
 </a>
-</div>
 
-<div class="contact-item">
-👍 <strong>Facebook</strong><br>
-<a href="https://www.facebook.com/people/AV-Cleaningservice/pfbid0ffeiNYCso26tdJSL3qGZ4P5mnevGfvFA8hx2rmjvZXW1ExGS1en1KXCU8LmQnVzel/" target="_blank">
-AV Cleaning Service
+<a href="https://www.instagram.com/avcleaning_adl" target="_blank" title="Instagram">
+<i class="fab fa-instagram"></i>
 </a>
-</div>
 
-</div>
-
-<a href="tel:0415414854" class="btn">
-Call Now
+<a href="https://www.facebook.com/people/AV-Cleaningservice/pfbid0ffeiNYCso26tdJSL3qGZ4P5mnevGfvFA8hx2rmjvZXW1ExGS1en1KXCU8LmQnVzel/" target="_blank" title="Facebook">
+<i class="fab fa-facebook-f"></i>
 </a>
 
 </div>

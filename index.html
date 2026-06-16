@@ -264,6 +264,30 @@ border-radius:30px;
 box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
+  .comparison{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:20px;
+}
+
+.comparison img{
+width:100%;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.comparison h4{
+color:#28a745;
+margin-bottom:10px;
+}
+
+@media(max-width:768px){
+.comparison{
+grid-template-columns:1fr;
+}
+}
+  
 .testimonial p{
 line-height:1.8;
 margin-bottom:20px;
